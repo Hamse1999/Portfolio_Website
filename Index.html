@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>User Login</title>
+	<link rel="stylesheet" href="Login.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="label">User Login</h1>
+		<form class="login_form" action="cv.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Please type your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please type your Password</div>
+			<button type="submit">Login</button>
+		</form>
+	</div>	
+	<script src="Login.js"></script>
+</body>
+</html>
